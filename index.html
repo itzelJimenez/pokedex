@@ -12,18 +12,21 @@
 		<section id="inputs">
 			<input type="text" id="nombrePokemon" placeholder="Nombre Pokemon">
    		  	<input type="text" id="colorPokemon" placeholder="Color Pokemon">
-    		<input type="text" id="puntosAtaque" placeholder="Puntos de ataque">
-    		<input type="button" value="Crear Pokemon" onclick="crearPokemon()">
+                        <input type="text" id="puntosAtaque" placeholder="Puntos de ataque">
+                        <input type="button" value="Crear Pokemon" onclick="crearPokemon()">
 		</section>
 		<section>
 			<select id="pokemon1">
-				<option value="volvo">Volvo</option>
+				
 			</select>
-				<input type="button" id="pelear" value="pelear">
+                    <input type="button" id="pelear" value="pelear" onclick="pelearPokemon()">
 			<select id="pokemon2">
-				<option value="volvo">Volvo</option>
+				
 			</select>
 		</section>
+        <section>
+        	<p id="resultadoDePeleaSanguinaria"></p>
+        </section>    
 		<script type="text/javascript" src="assets/js/js.js"></script>
 	</body>
 </html>
